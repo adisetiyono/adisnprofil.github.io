@@ -11,7 +11,8 @@
     if (isset($_POST['submit'])) {
 
         $email = $_POST['email']; //Mendapatkan inputan email dari form
-        $nama = $_POST['nama']; //Mendapatkan inputan nama dari form
+        $name = $_POST['name']; //Mendapatkan inputan nama dari form
+        $massage = $_POST['massage']; //Mendapatkan inputan nama dari form
 
         $mail = new PHPMailer(true);
 
