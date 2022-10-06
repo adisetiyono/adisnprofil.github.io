@@ -12,7 +12,7 @@
 
         $email = $_POST['email']; //Mendapatkan inputan email dari form
         $name = $_POST['name']; //Mendapatkan inputan nama dari form
-        $massage = $_POST['massage']; //Mendapatkan inputan nama dari form
+        $message = $_POST['message']; //Mendapatkan inputan nama dari form
 
         $mail = new PHPMailer(true);
 
